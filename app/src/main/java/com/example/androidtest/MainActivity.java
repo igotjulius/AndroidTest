@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import android.util.Log;
+import android.widget.Button;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,5 +21,17 @@ public class MainActivity extends AppCompatActivity {
         Log.i(TAG, "This is an info message");
         Log.w(TAG, "This is a warn message");
         Log.e(TAG, "This is an error message");
+
+        Button button = (Button) findViewById(R.id.button);
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i(TAG, "Button Clicked");
+            }
+        });
+
+
+
     }
 }
