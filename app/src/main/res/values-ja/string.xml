@@ -1,8 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AndroidTest</string>
-    <string name="send">SEND</string>
+    <string name="send">SEND JA</string>
     <string name="to">To</string>
     <string name="subject">Subject</string>
     <string name="message">Message</string>
-
 </resources>
